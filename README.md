@@ -1,8 +1,9 @@
 # Introduction to Effector
+> **Write business logic with ease**  
+> Type safe, reactive, framework agnostic.
 
-Эффектор - это библиотека для написания бизнес логики и управления состоянием.
-https://effector.dev/
-https://effector.dev/en/introduction/motivation/
+https://effector.dev/  
+https://effector.dev/en/introduction/motivation/  
 
 Представляет собой набор инструментов для работы с состоянием, событиями и связями между ними. Состоит из **юнитов** (реактивные примитивы) и **операторов** (методы для композиции и организации потока данных между юнитами).
 ### Units
@@ -307,8 +308,8 @@ flowchart LR
 	classDef m fill:#e76f51,color: white
 	classDef p fill:#264653,color: white
 
-  style Model opacity:0.7
-  style UI opacity:0.7
+    style Model fill:#edede9
+    style UI fill:#edede9
 
 
 	subgraph Model
@@ -375,3 +376,4 @@ flowchart LR
 - https://effector.dev/en/guides/server-side-rendering/
 - https://withease.pages.dev/magazine/
 - https://withease.pages.dev/magazine/migration_from_redux
+
